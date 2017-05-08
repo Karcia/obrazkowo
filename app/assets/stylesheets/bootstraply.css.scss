@@ -1,6 +1,14 @@
 $jumbotron-bg: #99FFCC;
 $navbar-default-bg: #009999;
 $navbar-default-link-color: black;
+.navbar-header {
+  height: 60px;
+}
+
+.btn {
+  height: 53px;
+  margin: 3px;
+}
 
 @import "bootstrap-sprockets";
 @import "bootstrap";

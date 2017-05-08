@@ -11,11 +11,16 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :description %><br>
-    <%= f.text_field :description %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
+  <div class="panel panel-default">
+    <div class="panel-heading"><%= page_title %></div>
+      <div class="panel-body">
+        <div class="form_group">
+          <%= f.label :description %><br>
+          <%= f.text_field :description, class: 'form-control' %>
+        </div>
+        <div class="actions">
+          <%= f.submit %>
+        </div>
+      </div>
   </div>
 <% end %>
